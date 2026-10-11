@@ -1,0 +1,14 @@
+aiofiles==25.1.0
+fastapi==0.136.1
+python-dotenv==1.1.0
+python-multipart==0.0.29
+reportlab==4.5.1
+numpy==2.4.0
+Pillow==11.2.1
+opencv-python-headless==4.13.0.92
+torch==2.12.0
+torchvision==0.27.0
+ultralytics==8.4.52
+groq==1.2.0
+uvicorn==0.47.0
+python-telegram-bot==21.10

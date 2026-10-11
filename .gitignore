@@ -1,0 +1,65 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+.venv/
+venv/
+env/
+*.egg
+
+# Environment
+.env
+*.env.local
+!.env.example
+
+# IDE & Metadata
+.gemini/
+
+# ML weights (large binary files)
+*.pt
+*.pth
+*.onnx
+backend/ml/model_weights/*.pt
+backend/ml/model_weights/*.pth
+backend/ml/model_weights/*.onnx
+
+# Database
+*.db
+*.sqlite3
+
+# Static generated files
+static/
+backend/static/uploads/
+backend/static/masks/
+backend/static/pdfs/
+
+# Firebase service account key
+backend/serviceAccountKey.json
+
+# Node
+node_modules/
+frontend/dist/
+frontend/.vite/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs
+*.log
+logs/
+
+# Docker
+.docker/
